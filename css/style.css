@@ -84,7 +84,7 @@ body {
 
 @keyframes shake {
 	0% {
-		left: 150px;  
+		left: 150px;
 	}
 	20% {
 		left: 200px;
@@ -100,5 +100,51 @@ body {
 	}
 	100% {
 		left: 170px;
+	}
+}
+
+@media (max-width: 568px) {
+	.ball-img {
+		height: 200px;
+	}
+
+	.ball-img img {
+		top: 30px;
+		left: 35px;
+		width: 200px;
+	}
+
+	.question input {
+		width: 95%;	
+	}
+
+	.question .answer {
+		text-align: center;
+	}
+	
+	
+	.question .error {
+		text-align: center;
+	}
+
+	@keyframes shake {
+		0% {
+			left: 25px;
+		}
+		20% {
+			left: 45px;
+		}
+		40% {
+			left: 25px;
+		}
+		60% {
+			left: 45px;
+		}
+		80% {
+			left: 25px;
+		}
+		100% {
+			left: 35px;
+		}
 	}
 }
